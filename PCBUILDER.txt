@@ -1,0 +1,17 @@
+PC BUILDER DOCS:
+
+index.html:
+Play Button redirects to play.html
+
+
+PLAY.HTML:
+Has 2 dropdownboxes that has a value of each item in each box wehn next is clicked dynamic JavaScript gets the 2 values and adds them together and redirects to ram.html?cpuscore=CPU_SCORE
+
+RAM.HTML:
+Has 2 dropdownboxes that has a value of each item in each box wehn next is clicked dynamic JavaScript gets the 2 values and adds them together and redirects to case.html?cpuscore=SAME_AS_BEFORE&ramscore=SCORE_FROM_RAM
+
+CASE.HTML:
+Has 3 dropdownboxes that has a value of each item in each box wehn next is clicked dynamic JavaScript gets the 3 values and adds them together and redirects to finish.html?cpuscore=CPU_SCORE&ramscore=SAME_AS_BEFORE&casescore=SCORE_FROM_CASE
+
+FINISH.HTML:
+Has a JavaScript script that gets all of the args from the URL and adds them together to get the Total: and the induvidual scores.
